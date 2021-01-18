@@ -29,4 +29,4 @@ def merge_sort(given_list):
             b = b + 1
             c = c + 1
 
-    return list
+    return given_list
