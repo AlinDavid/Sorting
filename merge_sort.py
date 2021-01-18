@@ -5,8 +5,8 @@ def merge_sort(given_list):
         left = given_list[:mid]
         right = given_list[mid:]
 
-        mergeSort(left)
-        mergeSort(right)
+        merge_sort(left)
+        merge_sort(right)
 
         a, b, c = 0, 0, 0
 
